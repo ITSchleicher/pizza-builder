@@ -73,6 +73,10 @@ footer {
   margin-right:10px;
 }
  
+#green-peppers img {
+  height:100% ;
+  width:100% ;
+}
 .button {
   /*position: absolute; /* set button to an absolute position */
   top: 50%; /* adjust the top position of the button */

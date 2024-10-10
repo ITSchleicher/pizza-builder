@@ -49,12 +49,23 @@ let anchovies = {
     text: "anchovies"
     }
 
-let customername =
 
+// creating variables and listeners for customer name button    
+const customerInput = document.getElementById('customerInput')
 
-    //  put toppings in an array
+const nameButton = document.getElementById('namesubmitButton')
 
-const toppings = [pepperoni,sausage,greenpepper,mushroom,blackolives,onions,grilledchicken,pineapple,bacon,basil,garlic,anchovies]
+let customerName = "Customer"
+
+nameButton.addEventListener('click', function() {
+    
+    let customerName = customerInput.value;
+    console.log(customerName)
+});
+
+//  put toppings in an array
+
+let toppings = [pepperoni,sausage,greenpepper,mushroom,blackolives,onions,grilledchicken,pineapple,bacon,basil,garlic,anchovies]
 
 //make list of toppings on pizza by checking for if onpizza is true
 const toppinglist = toppings.filter(toppings => toppings.onpizza)
@@ -66,10 +77,10 @@ const toppingtextonly = toppinglist.map(toppinglist => toppinglist.text)
 const toppingstext = toppingtextonly.join(", ");
 
 // concacting name of customer with pizza toppings into final output
-const pizzaoutput  = "Hello, " + customername + "! Your pizza has " + toppingstext + "on it.  Sounds Delicious!"
+const pizzaoutput  = "Hello, " + customerName + "! Your pizza has " + toppingstext + " on it.  Sounds Delicious!"
 
 //set toppingstext to an ID that can be called in HTML
-document.getElementById("pizzaoutput").textContent = toppingstext;
+document.getElementById("pizzaresult").textContent = pizzaoutput;
 
 function myFunction() {
     var element = document.body;

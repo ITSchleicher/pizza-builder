@@ -49,8 +49,10 @@ let anchovies = {
     text: "anchovies"
     }
 
+let customername =
 
-//  put toppings in an array
+
+    //  put toppings in an array
 
 const toppings = [pepperoni,sausage,greenpepper,mushroom,blackolives,onions,grilledchicken,pineapple,bacon,basil,garlic,anchovies]
 
@@ -60,12 +62,14 @@ const toppinglist = toppings.filter(toppings => toppings.onpizza)
 // pulling only the toppinglist.text attribute from the array
 const toppingtextonly = toppinglist.map(toppinglist => toppinglist.text)
 
-// creates final string that can be used as a variable on the website
+// creates final string of toppings
 const toppingstext = toppingtextonly.join(", ");
 
+// concacting name of customer with pizza toppings into final output
+const pizzaoutput  = "Hello, " + customername + "! Your pizza has " + toppingstext + "on it.  Sounds Delicious!"
 
 //set toppingstext to an ID that can be called in HTML
-document.getElementById("onpizzatoppings").textContent = toppingstext;
+document.getElementById("pizzaoutput").textContent = toppingstext;
 
 function myFunction() {
     var element = document.body;

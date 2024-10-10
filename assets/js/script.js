@@ -60,7 +60,7 @@ let customerName = "Customer"
 nameButton.addEventListener('click', function() {
     
     customerName = customerInput.value;
-    console.log(customerName)
+    
 });
 
 //  put toppings in an array
@@ -68,23 +68,20 @@ nameButton.addEventListener('click', function() {
 let toppings = [pepperoni,sausage,greenpepper,mushroom,blackolives,onions,grilledchicken,pineapple,bacon,basil,garlic,anchovies]
 
 
+// pressing Make Your Pizza button 
 const completeOrder = document.getElementById('completeOrder');
-
-
 
 completeOrder.addEventListener('click', function() {
     const toppinglist = toppings.filter(toppings => toppings.onpizza)
     const toppingtextonly = toppinglist.map(toppinglist => toppinglist.text)
     const toppingstext = toppingtextonly.join(", ");
-    console.log(customerName)
     let pizzaoutput  = "Hello, " + customerName + "! Your pizza has " + toppingstext + " on it.  Sounds Delicious!"
-    console.log(pizzaoutput)
     document.getElementById("pizzaresult").textContent = pizzaoutput;
 });
 
 
 
-
+// dark mode functionality
 function myFunction() {
     var element = document.body;
     element.classList.toggle("dark-mode");

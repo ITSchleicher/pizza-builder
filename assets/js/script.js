@@ -1,23 +1,23 @@
 // declare toppings as variables
 
 let pepperoni = {
-	onpizza: true,
+	onpizza: false,
 	text: "pepperoni"
 	}
 let sausage = {
-	onpizza: true,
+	onpizza: false,
 	text: "sausage"
 	}
 let greenpepper = {
-	onpizza: true,
+	onpizza: false,
 	text: "green pepper"
 	}
 let mushroom = {
-	onpizza: true,
+	onpizza: false,
 	text: "mushroom"
 	}
 let blackolives = {
-    onpizza: true,
+    onpizza: false,
     text: "black olives"
     }
 let onions = {
@@ -86,3 +86,66 @@ function myFunction() {
     var element = document.body;
     element.classList.toggle("dark-mode");
   }
+
+
+//Creating event listeners for clicking toppings
+
+const clickpepperoni = document.getElementById('pepperoni');
+clickpepperoni.addEventListener('click', function() {
+    pepperoni.onpizza = !pepperoni.onpizza; 
+})
+
+const clicksausage = document.getElementById('sausage');
+clicksausage.addEventListener('click', function() {
+    sausage.onpizza = !sausage.onpizza; 
+})
+
+const clickmushrooms = document.getElementById('mushrooms');
+clickmushrooms.addEventListener('click', function() {
+    mushroom.onpizza = !mushroom.onpizza; 
+})
+
+const clickgreenpepper = document.getElementById('green-peppers');
+clickgreenpepper.addEventListener('click', function() {
+    greenpepper.onpizza = !greenpepper.onpizza; 
+})
+
+const clickblackolives = document.getElementById('black-olives');
+clickblackolives.addEventListener('click', function() {
+    blackolvies.onpizza = !blackolives.onpizza; 
+})
+
+const clickonions = document.getElementById('onions');
+clickonions.addEventListener('click', function() {
+    onions.onpizza = !onions.onpizza; 
+})
+
+const clickgrilledchicken = document.getElementById('grilled-chicken');
+clickgrilledchicken.addEventListener('click', function() {
+    grilledchicken.onpizza = !grilledchicken.onpizza; 
+})
+
+const clickpineapple = document.getElementById('pineapple');
+clickpineapple.addEventListener('click', function() {
+    pineapple.onpizza = !pineapple.onpizza; 
+})
+
+const clickbacon = document.getElementById('bacon');
+clickbacon.addEventListener('click', function() {
+    bacon.onpizza = !bacon.onpizza; 
+})
+
+const clickbasil = document.getElementById('basil');
+clickbasil.addEventListener('click', function() {
+    basil.onpizza = !basil.onpizza; 
+})
+
+const clickgarlic = document.getElementById('garlic');
+clickgarlic.addEventListener('click', function() {
+    garlic.onpizza = !garlic.onpizza; 
+})
+
+const clickanchovies = document.getElementById('anchovies');
+clickanchovies.addEventListener('click', function() {
+    anchovies.onpizza = !anchovies.onpizza; 
+})

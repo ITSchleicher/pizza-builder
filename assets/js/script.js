@@ -112,7 +112,7 @@ clickgreenpepper.addEventListener('click', function() {
 
 const clickblackolives = document.getElementById('black-olives');
 clickblackolives.addEventListener('click', function() {
-    blackolvies.onpizza = !blackolives.onpizza; 
+    blackolives.onpizza = !blackolives.onpizza; 
 })
 
 const clickonions = document.getElementById('onions');

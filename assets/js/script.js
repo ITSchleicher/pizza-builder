@@ -67,8 +67,7 @@ const toppingstext = toppingtextonly.join(", ");
 //set toppingstext to an ID that can be called in HTML
 document.getElementById("onpizzatoppings").textContent = toppingstext;
 
-
-
-
-
-
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }

@@ -35,6 +35,11 @@ footer {
   position: relative;
   z-index: 4;
 }
+.box img{
+  position: relative; /* set container to a relative position */
+  width: 200px; /* set your desired width */
+  height: 100px; /* set your desired height */
+}
 
 .green { 
   margin: 20px 20px;
@@ -63,11 +68,7 @@ footer {
 
 
  
-.image-container {
-  position: relative; /* set container to a relative position */
-  width: 200px; /* set your desired width */
-  height: 100px; /* set your desired height */
-}
+
 
 #pepperoni img {
   height:100% ;

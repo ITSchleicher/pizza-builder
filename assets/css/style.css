@@ -6,15 +6,12 @@ header {
 body{
   height:100%;
 }
+
 footer {
- 
   margin-top:20%;
   border-top: solid 5px;
   padding: 2rem;
-  width:100%;
-  
-  
-  
+  width:100%; 
 }
 
 #info {
@@ -26,27 +23,9 @@ footer {
   max-width: 60%;
 }
 
-
-.box {
-  margin: 20px 20px;
-  border:3px solid rgb(0, 0, 0);
-  height: 150px;
-  width: 150px;
-  position: relative;
-  z-index: 4;
-}
-.box img{
-  position: relative; /* set container to a relative position */
-  width: 200px; /* set your desired width */
-  height: 100px; /* set your desired height */
-}
-
 .green { 
-  margin: 20px 20px;
   border: 3px solid green; 
-  box-shadow: 0 0 10px green; 
-  height: 150px; 
-  width: 150px; 
+  box-shadow: 0 0 20px green; 
 } 
 
 .pizza{
@@ -151,3 +130,4 @@ body {
   background-color: black;
   color: white;
 }
+

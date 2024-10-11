@@ -153,39 +153,39 @@ clickanchovies.addEventListener('click', function() {
 
 // Adding a green toggle to each topping
 
-document.getElementById('1').addEventListener('click', function() {
+document.getElementById('pepperoni').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('2').addEventListener('click', function() {
+document.getElementById('sausage').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('3').addEventListener('click', function() {
+document.getElementById('mushrooms').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('4').addEventListener('click', function() {
+document.getElementById('green-peppers').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('5').addEventListener('click', function() {
+document.getElementById('black-olives').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('6').addEventListener('click', function() {
+document.getElementById('onions').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('7').addEventListener('click', function() {
+document.getElementById('grilled-chicken').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('8').addEventListener('click', function() {
+document.getElementById('pineapple').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('9').addEventListener('click', function() {
+document.getElementById('bacon').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('10').addEventListener('click', function() {
+document.getElementById('basil').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('11').addEventListener('click', function() {
+document.getElementById('garlic').addEventListener('click', function() {
     this.classList.toggle("green");
 });
-document.getElementById('12').addEventListener('click', function() {
+document.getElementById('anchovies').addEventListener('click', function() {
     this.classList.toggle("green");
 });

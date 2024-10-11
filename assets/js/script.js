@@ -149,3 +149,43 @@ const clickanchovies = document.getElementById('anchovies');
 clickanchovies.addEventListener('click', function() {
     anchovies.onpizza = !anchovies.onpizza; 
 })
+
+
+// Adding a green toggle to each topping
+
+document.getElementById('1').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('2').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('3').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('4').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('5').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('6').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('7').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('8').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('9').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('10').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('11').addEventListener('click', function() {
+    this.classList.toggle("green");
+});
+document.getElementById('12').addEventListener('click', function() {
+    this.classList.toggle("green");
+});

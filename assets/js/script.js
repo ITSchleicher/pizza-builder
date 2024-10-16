@@ -74,7 +74,7 @@ let anchovies = {
     }
 
     
-// creating variables and listeners for customer name button    
+// creating variables and listeners for customer name button and storing them in local storage
 let customerInput = document.getElementById('customerInput')
 
 const nameButton = document.getElementById('namesubmitButton')
@@ -93,7 +93,7 @@ nameButton.addEventListener('click', function() {
 
 
 
-// checking for previously stored toppings adding them, and highlighting them in green
+// checking for previously stored toppings and name adding them, and highlighting the toppings in green
 window.onload = function() {
     const storedName = localStorage.getItem('storedname');
         customerName = storedName

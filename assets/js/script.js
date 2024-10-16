@@ -189,3 +189,17 @@ document.getElementById('garlic').addEventListener('click', function() {
 document.getElementById('anchovies').addEventListener('click', function() {
     this.classList.toggle("green");
 });
+
+localStorage.setItem('completeOrder', JSON.stringify(completeOrder));
+
+var retrievedObject = localStorage.getItem('toppings');
+
+console.log('completeOrder', JSON.parse(retrievedObject));
+
+
+
+
+
+const pizzalist =JSON.stringify(completeOrder)
+
+localStorage.setItem("completeOrder", pizzalist)

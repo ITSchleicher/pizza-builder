@@ -131,3 +131,16 @@ body {
   color: white;
 }
 
+.slideshow {
+  width: 100vW;
+  height: 69.5vw;
+  Background-size: cover;
+  backgound-repeat: no-repeat;
+  animation: slideshow 15s ease-in-out infinite;
+}
+@keyframes slideshow {
+  0% {background-image: url("https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?cs=srgb&dl=artesanal-pizza-cheese-close-up-1566837.jpg&fm=jpg")}
+  33% {background-image: url("https://pizzaovens.com/product_images/uploaded_images/image1.jpg")}
+  66% {background-image: url("https://www.bacinos.com/wp-content/uploads/2021/05/What-Is-Hand-Tossed-Pizza-750x506.jpg")}
+  100%{background-image: url("https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?cs=srgb&dl=artesanal-pizza-cheese-close-up-1566837.jpg&fm=jpg")}
+}

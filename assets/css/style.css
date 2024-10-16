@@ -29,13 +29,15 @@ footer {
 } 
 
 .pizza{
-  float: right;
-  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px 60px 20px;
 }
 
 #pizza-img {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 #PizzaMakerSign {

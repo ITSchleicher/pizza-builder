@@ -284,27 +284,27 @@ function pizzaIcon() {
     } else if (pepperoni.onpizza === true && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://img.craiyon.com/2024-10-16/LGNkTmbZSNmfqBlO0gpLyw.webp"
     } else if (pepperoni.onpizza === true && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/ofvjblkm/ddce3352-b36d-4ffb-a097-8ee5a3b3a618.JPG"
     } else if (pepperoni.onpizza === true && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://mlhxrkjoggqr.i.optimole.com/w:600/h:400/q:mauto/rt:fill/g:ce/f:best/https://worldsbestpizza.com/wp-content/uploads/2020/03/01242021caliente-15551.jpg"
     } else if (pepperoni.onpizza === true && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://southboston.landofpizzasouthie.com/webfile?name=4LANDOS_SPECIAL&hash=1678219501000"
     } else if (pepperoni.onpizza === true && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === true) {
-        pizzaImg.src=""
+        pizzaImg.src="https://imagedelivery.net/9lr8zq_Jvl7h6OFWqEi9IA/96722a13-db80-4a93-518c-e2ece03a8f00/public"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) { 
         pizzaImg.src="https://d3exbi59yykwt2.cloudfront.net/general-uploads/Menu-Images/_960x800_crop_center-center_none/Sausage.png"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/10/2/0/FNM_110112-Sicilian-Pizza-With-Sausage-and-Peppers-Recipe_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1382455226932.webp"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.louiselowry.com/wp-content/uploads/2016/04/IMG_1922.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://i.redd.it/sff103ve0g891.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://live.staticflickr.com/65535/48843694528_57d0d540bf.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://preview.redd.it/pjwpmx4ps7v61.jpg?width=1080&crop=smart&auto=webp&s=116eec0d9a539880f84342d176fee358b242ff39"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true  && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://live.staticflickr.com/3346/3577538850_8b96c7f736_b.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src=""
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true  && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
@@ -412,13 +412,13 @@ function pizzaIcon() {
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://cdn.loveandlemons.com/wp-content/uploads/2023/07/margherita-pizza.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://i0.wp.com/flavorfulife.com/wp-content/uploads/2024/02/Roasted-Garlic-Pizza-close-up.jpg?resize=1200%2C1600&ssl=1"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === true) {
-        pizzaImg.src=""
+        pizzaImg.src="https://files.mob-cdn.co.uk/recipes/2024/07/_1200x630_crop_center-center_82_none/Anchovy-Pizza.jpg?mtime=1720089732"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src="https://www.plattertalk.com/wp-content/uploads/2023/03/A-finished-garlic-pizza.jpg"
+        pizzaImg.src="https://www.fuegowoodfiredovens.com/wp-content/uploads/2021/08/garlic-pizza-bread-1.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === true && anchovies.onpizza === true) {
-        pizzaImg.src=""
+        pizzaImg.src="https://pizzagoon.com/wp-content/uploads/2014/07/an90-585x600.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === true ) {
         pizzaImg.src="https://preview.redd.it/dine-and-anchovy-pizza-rossa-v0-ixum2p9zqu6a1.jpg?width=1080&crop=smart&auto=webp&s=e8420a06d610bff0636e0a7a2f4aa837f8951516"
    } else {

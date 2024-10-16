@@ -78,7 +78,23 @@ nameButton.addEventListener('click', function() {
 //  put toppings in an array
 
 let toppings = [pepperoni, sausage, greenpepper, mushroom, blackolives, onions, grilledchicken, pineapple, bacon, basil, garlic, anchovies]
+let toppings = [pepperoni, sausage, greenpepper, mushroom, blackolives, onions, grilledchicken, pineapple, bacon, basil, garlic, anchovies]
 
+// checking for previously stored toppings (under construction by Justin)
+//     //document.querySelectorAll('toppings.htmlel').classList.toggle('green'); // Add 'active' class
+
+// toppings.forEach(topping {
+//      document.querySelectorAll('toppings.htmlel').classList.toggle('green');
+//  });
+
+for (let ingredient of toppings) {
+    if (ingredient.onpizza === true) {
+        const element = document.getElementById(ingredient.htmlel);
+        if (element) { 
+            element.classList.toggle("green");
+        }
+    }
+}
 // checking for previously stored toppings and highlighting them in green
 
 for (let ingredient of toppings) {
@@ -96,10 +112,15 @@ const completeOrder = document.getElementById('completeOrder');
 
 completeOrder.addEventListener('click', function() {
      toppinglist = toppings.filter(toppings => toppings.onpizza)
+    let toppinglist = toppings.filter(toppings => toppings.onpizza)
     const toppingtextonly = toppinglist.map(toppinglist => toppinglist.text)
     const toppingstext = toppingtextonly.join(", ");
     let pizzaoutput  = "Hello, " + customerName + "! Your pizza has " + toppingstext + " on it.  Sounds Delicious!"
     document.getElementById("pizzaresult").textContent = pizzaoutput;
+    //put in local storage
+    let storedtoppings = JSON.stringify(toppingslist);
+    localStorage.setItem('toppings', storedtoppings);
+
     //put in local storage
     let storedtoppings = JSON.stringify(toppingslist);
     localStorage.setItem('toppings', storedtoppings);

@@ -96,8 +96,9 @@ nameButton.addEventListener('click', function() {
 // checking for previously stored toppings and name adding them, and highlighting the toppings in green
 window.onload = function() {
     const storedName = localStorage.getItem('storedname');
+    if (storedName){
         customerName = storedName
-    
+    }
     const storedArray = localStorage.getItem('storedtoppings');
     let oldtoppings = JSON.parse(storedArray);
     if (oldtoppings) {

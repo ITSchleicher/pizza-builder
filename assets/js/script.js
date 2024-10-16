@@ -16,13 +16,13 @@ let greenpepper = {
     name: "greenpepper",
 	onpizza: false,
 	text: "green pepper",
-    htmlel: "green-pepper"
+    htmlel: "green-peppers"
 	}
 let mushroom = {
     name: "mushroom",
 	onpizza: false,
 	text: "mushroom",
-    htmlel: "mushroom"
+    htmlel: "mushrooms"
 	}
 let blackolives = {
     name: "blackolives",
@@ -84,30 +84,46 @@ let customerName = "Customer"
 nameButton.addEventListener('click', function() {
     
     customerName = customerInput.value;
+    localStorage.setItem('storedname', customerName)
     
 });
 
-//  put toppings in an array
-
-let toppings = [pepperoni, sausage, greenpepper, mushroom, blackolives, onions, grilledchicken, pineapple, bacon, basil, garlic, anchovies]
 
 
-// checking for previously stored toppings and highlighting them in green
+
+
+
+// checking for previously stored toppings adding them, and highlighting them in green
 window.onload = function() {
+    const storedName = localStorage.getItem('storedname');
+        customerName = storedName
+    
     const storedArray = localStorage.getItem('storedtoppings');
-    if (storedArray) {
-        toppings = JSON.parse(storedArray);
-    }
-};
-
-for (let ingredient of toppings) {
-    if (ingredient.onpizza === true) {
-        const element = document.getElementById(ingredient.htmlel);
-        if (element) { 
-            element.classList.toggle("green");
+    let oldtoppings = JSON.parse(storedArray);
+    if (oldtoppings) {
+        pepperoni = oldtoppings[0]
+        sausage = oldtoppings[1]
+        greenpepper = oldtoppings[2]
+        mushroom = oldtoppings[3]
+        blackolives = oldtoppings[4]
+        onions = oldtoppings[5]
+        grilledchicken = oldtoppings[6]
+        pineapple = oldtoppings[7]
+        bacon = oldtoppings[8]
+        basil = oldtoppings[9]
+        garlic = oldtoppings[10]
+        anchovies = oldtoppings[11]
+        for (let ingredient of oldtoppings) {
+            if (ingredient.onpizza === true) {
+                const element = document.getElementById(ingredient.htmlel);
+                if (element) { 
+                    element.classList.toggle("green");
+                }
+            }
         }
     }
 }
+
 
 
 // pressing Make Your Pizza button 
@@ -116,6 +132,7 @@ const completeOrder = document.getElementById('completeOrder');
 
 
 completeOrder.addEventListener('click', function() {
+    let toppings = [pepperoni, sausage, greenpepper, mushroom, blackolives, onions, grilledchicken, pineapple, bacon, basil, garlic, anchovies]
     let toppinglist = toppings.filter(toppings => toppings.onpizza)
     const toppingtextonly = toppinglist.map(toppinglist => toppinglist.text)
     const toppingstext = toppingtextonly.join(", ");
@@ -212,58 +229,39 @@ clickanchovies.addEventListener('click', function() {
 })
 
 
-// Adding a green toggle to each topping
-
-document.getElementById('pepperoni').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('sausage').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('mushrooms').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('green-peppers').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('black-olives').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('onions').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('grilled-chicken').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('pineapple').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('bacon').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('basil').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('garlic').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-document.getElementById('anchovies').addEventListener('click', function() {
-    this.classList.toggle("green");
-});
-
-localStorage.setItem('completeOrder', JSON.stringify(completeOrder));
-
-var retrievedObject = localStorage.getItem('toppings');
-
-console.log('completeOrder', JSON.parse(retrievedObject));
 
 
 
 
 
-const pizzalist =JSON.stringify(completeOrder)
 
-localStorage.setItem("completeOrder", pizzalist)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Changing Pizza Icon
 
 function pizzaIcon() {

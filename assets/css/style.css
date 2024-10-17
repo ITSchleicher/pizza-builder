@@ -137,7 +137,7 @@ body {
   width: 100vW;
   height: 69.5vw;
   Background-size: cover;
-  backgound-repeat: no-repeat;
+  background-repeat: no-repeat;
   animation: slideshow 15s ease-in-out infinite;
 }
 @keyframes slideshow {

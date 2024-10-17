@@ -299,116 +299,118 @@ function pizzaIcon() {
         pizzaImg.src="https://www.louiselowry.com/wp-content/uploads/2016/04/IMG_1922.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://i.redd.it/sff103ve0g891.jpg"
-    } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false === false && anchovies.onpizza === false) {
-        pizzaImg.src="https://live.staticflickr.com/65535/48843694528_57d0d540bf.jpg"
+    } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
+        pizzaImg.src="https://wendypolisi.com/wp-content/uploads/2016/07/sausage-manchego-red-onion-pizza-3-500x500.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://preview.redd.it/pjwpmx4ps7v61.jpg?width=1080&crop=smart&auto=webp&s=116eec0d9a539880f84342d176fee358b242ff39"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true  && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://live.staticflickr.com/3346/3577538850_8b96c7f736_b.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD94sL8m9L7wlerakjBSQh2zK4QxWuWBCYkA&s"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true  && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://images.squarespace-cdn.com/content/v1/5cbf5a350cf57df7fb43982e/1590113417059-RIAAIRS1GZU9XOTDDP1S/XTREME.png"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbEglD8eoISqmpTsqDwIxKyEk4imS7VGFq5u0bPOX5DvM92nnE-zK1QbG2IUJf1WrLWFg&usqp=CAU"
     } else if (pepperoni.onpizza === false && sausage.onpizza === true && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === true) {
-        pizzaImg.src=""
+        pizzaImg.src="https://f4.bcbits.com/img/0002512304_25.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === true && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://images.squarespace-cdn.com/content/v1/5fe3fcd000e52f676c978a91/87cf0a1a-63fd-47e1-a566-8743bf839426/20211031_130020-01_resized.jpeg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://cooksmartsapp.s3-us-west-2.amazonaws.com/meal_photos/1644/20201228-Green-Pepper-Mushroom-Pizza-NM-2.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://as2.ftcdn.net/v2/jpg/00/95/43/19/1000_F_95431931_F5JqEs3nOvoUGAuM21tuGI9ckL8r2j08.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://images.snapwi.re/58a9/550fc005917f757153e15305.w800.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://media-cdn.tripadvisor.com/media/photo-s/16/8c/7a/08/veggie-pizza-with-roasted.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://images.squarespace-cdn.com/content/v1/5f0b5b8f19d176469c4f8ea3/dbb236ac-4257-4e3c-bb84-2d5007738226/BBQ+Chicken+Pizza+with+Bacon+and+Pineapple.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://sisijemimah.com/wp-content/uploads/2016/04/homemade-pizza-6.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://larosasweb295.blob.core.windows.net/images-menu/chicken_and_bacon_pizza.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp1pRPR6IIyCGcwWhqQcGyTbv6BfoDr_HDdw&s"
      } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === true && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === true) {
-        pizzaImg.src=""
+        pizzaImg.src="https://static.vecteezy.com/system/resources/previews/027/808/505/non_2x/appetizing-vegetarian-pizza-composed-with-cherry-tomatoes-garlic-cloves-tomato-puree-basil-leaves-ricotta-grated-parmesan-dried-oregano-pesto-mushrooms-as-toppings-photo.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === true && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://www.thursdaynightpizza.com/wp-content/uploads/2021/05/finished-without-chives_STAMP.png"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://chefindisguise.com/wp-content/uploads/2011/04/p9.jpg?w=940"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.foodandwine.com/thmb/UH79IPSChm0VGjJlOYA6myXUlzE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/jerk-chicken-pizza-FT-RECIPE0920-d30868b74c0841879c483c1703cc763f.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://s23209.pcdn.co/wp-content/uploads/2016/11/White-Mushroom-PizzaIMG_4169edit.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://i0.wp.com/www.splashoftaste.com/wp-content/uploads/2022/08/mushroom-pizza-featured.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.thursdaynightpizza.com/wp-content/uploads/2021/05/finished-without-chives_STAMP.png"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyh6_ZuOofc-eRr4y9HLINgzQRxLWfz-Z7g&s"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://assets.bonappetit.com/photos/627ac1da37243f2984b7959b/1:1/w_2560%2Cc_limit/0510-barbecue-mushroom-pizza-lede.jpg"
+    } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === true && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === true) {
+        pizzaImg.src="https://www.nicolaspujol.com/wp-content/uploads/2019/04/Spanish-brava-sauce-pizza-with-vegetables-and-side-of-anchovies-500x375.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === true && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://cdn7.kiwilimon.com/recetaimagen/15739/400x400/7759.jpg.webp"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://howtofeedaloon.com/wp-content/uploads/2016/08/pizza-3.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCKUdZR1N6NpcCJbsD6aPZgalGV7pxFfAMag&s"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://britneybreaksbread.com/wp-content/uploads/2021/04/Cheesy-Olive-Pizza-with-Mushrooms-3.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://sweetcaramelsunday.com/wp-content/uploads/Black-olive-pizza-110.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.ahintofhoney.com/wp-content/uploads/2021/01/DSC04472-731x1024.jpeg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://images.squarespace-cdn.com/content/v1/5e137a0423bec15dcf0cfbf8/1594236535332-D1E0VWCNXH2J24H7KM1N/Combo+Pizza.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === true && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === true) {
-        pizzaImg.src=""
+        pizzaImg.src="https://i.redd.it/or5lmf5vnh2b1.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === true && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://i.redd.it/k6kxqk9do2ub1.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://theclevermeal.com/wp-content/uploads/2022/02/onion-pizza_01.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://realitybakes.com/wp-content/uploads/2020/01/Roasted-Red-Pepper-and-Red-Onion-Pizza-8.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://cozycravings.com/wp-content/uploads/2024/03/DSC_5880-2.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://cozycravings.com/wp-content/uploads/2019/02/DSC_3923-2.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.marthastewart.com/thmb/3N-0cJgJfLDyytnCehJd4aVgHJw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/white-pizza-172-d112100_horiz-c868dcf28ed44b21af90f11797d6d7d6.jpgitokKoRSmCVm"
      } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === true && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === true) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.delscookingtwist.com/wp-content/uploads/2017/02/Broccoli-Feta-and-Red-Onion-Pizza_0589.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === true && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://www.simplyrecipes.com/thmb/G2VQwX22IUW4TDSPgPVE72heqpA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Chicken-Alfredo-Pizza-Lead-Shot-3b-6df9d82a4fd3451fa954a7f6ae1c6191.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.allrecipes.com/thmb/ee0daLeNNIUcrKbm5nxwFXheMDM=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/AR-24878-bbq-chicken-pizza-beauty-4x3-39cd80585ad04941914dca4bd82eae3d.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://bluebowlrecipes.com/wp-content/uploads/2019/05/barbecue-chicken-pizza-0917.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://joyfoodsunshine.com/wp-content/uploads/2022/11/BBQ-chicken-pizza-recipe-9.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.budgetbytes.com/wp-content/uploads/2020/06/BBQ-Chicken-Pizza-one-slice.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === true && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === true) {
-        pizzaImg.src=""
+        pizzaImg.src="https://thecozycook.com/wp-content/uploads/2023/08/Buffalo-Chicken-Pizza-f.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza ===  true && bacon.onpizza === false && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://external-preview.redd.it/VAiraxZLBEK8ry39NMYCp6y02tuZqS72bQCTQKBbFmg.png?width=640&crop=smart&auto=webp&s=f2e33f0784b5d99e2c27c38ee7e1d6f0d6ca41d6"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://hips.hearstapps.com/hmg-prod/images/hawaiian-pizza-index-65f4641de4b08.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://cookingwithchefbryan.com/wp-content/uploads/2022/01/Ham-and-Pineapple-Pizza-scaled.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.withspice.com/wp-content/uploads/2022/03/hawaiian-pizza-recipe-with-caramelized-pineapple-prosciutto-and-bacon.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === true && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === true) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.bowlofdelicious.com/wp-content/uploads/2020/01/Hawaiian-Pizza-3.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === true && basil.onpizza === false && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://savoryreviews.com/wp-content/uploads/2012/10/bcp4.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://hips.hearstapps.com/thepioneerwoman/wp-content/uploads/2015/09/bacon-cheeseburger-pizza-22.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {
-        pizzaImg.src=""
+        pizzaImg.src="https://thefancypantskitchen.com/wp-content/uploads/2022/04/BARBECUE-BACON-PIZZA5-600x400.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === true && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === true) {
-        pizzaImg.src=""
+        pizzaImg.src="https://www.cookingclassy.com/wp-content/uploads/2015/03/caramlized-onion-bacon-and-spinach-pizza4-srgb.-480x270.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === true && garlic.onpizza === false && anchovies.onpizza === false) {
         pizzaImg.src="https://cdn.loveandlemons.com/wp-content/uploads/2023/07/margherita-pizza.jpg"
     } else if (pepperoni.onpizza === false && sausage.onpizza === false && greenpepper.onpizza === false && mushroom.onpizza === false && blackolives.onpizza === false && onions.onpizza === false && grilledchicken.onpizza === false && pineapple.onpizza === false && bacon.onpizza === false && basil.onpizza === true && garlic.onpizza === true && anchovies.onpizza === false) {

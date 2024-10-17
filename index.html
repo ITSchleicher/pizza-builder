@@ -21,16 +21,15 @@
       </div>
 
 
-        <div id="info">
-            <h2>Select Toppings and Enter your Name: <input type="text" id="customerInput"><button id="namesubmitButton">Submit</button></h2>
+        <div class="info">
+          <h2>Enter your Name: <input type="text" id="customerInput"><button id="namesubmitButton">Submit</button></h2>
         </div>
-        <section id="toppings">
-          <button onclick="myFunction()">dark mode</button>
-            
-          <div class="pizza">
-            <img id="pizza-img" src="https://www.foodandwine.com/thmb/Wd4lBRZz3X_8qBr69UOu2m7I2iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg" alt="Picture of a pizza">
-          </div>
 
+        <div class="info">
+          <h2>Choose your Toppings!</h2>
+        </div>
+        
+        <section id="toppings">
             <div class="row row-cols-3 row-cols-md-4 row-cols-xl-6 g-4">
               <div class="col">
               <div class="card h-100" id="pepperoni">
@@ -142,19 +141,35 @@
                </div>
 
         </section>
+
+
+
         <button id="completeOrder">Make your Pizza!</button>
-        <div id="pizzaresult"></div>
+        <!-- <div id="pizzaresult"></div> -->
+
+        <div class="container px-4 text-center">
+          <div class="row gx-5">
+            <div class="col">
+             <div class="p-3, pizzaoutput"id="pizzaresult"></div>
+            </div>
+            <div class="col">
+              <div class="p-3" class="pizza">
+                <img id="pizza-img" src="https://www.foodandwine.com/thmb/Wd4lBRZz3X_8qBr69UOu2m7I2iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg" alt="Picture of a pizza"></div>
+              </div>
+            </div>
+          </div>
         
     <footer>
         <section>
             <h5>Made by:</h5>
             <ul class="footer-list">
-                <li>Joshua</li>
-                <li>John</li>
-                <li>Draven</li>
-                <li>Justin</li>
-                <li>Cory</li>
+              <h3>Joshua</h3>
+              <h3>John</h3>
+              <h3>Draven</h3>
+              <h3>Justin</h3>
+              <h3>Cory</h3>
             </ul>
+            <button onclick="myFunction()">dark mode</button>
         </section>
     </footer>
     </main>

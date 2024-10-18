@@ -130,14 +130,20 @@ window.onload = function() {
 // pressing Make Your Pizza button 
 const completeOrder = document.getElementById('completeOrder');
 
-
+// let toppingstext = "cheese"
 
 completeOrder.addEventListener('click', function() {
+    
     let toppings = [pepperoni, sausage, greenpepper, mushroom, blackolives, onions, grilledchicken, pineapple, bacon, basil, garlic, anchovies]
     let toppinglist = toppings.filter(toppings => toppings.onpizza)
     const toppingtextonly = toppinglist.map(toppinglist => toppinglist.text)
-    const toppingstext = toppingtextonly.join(", ");
-    let pizzaoutput  = "Hello, " + customerName + "! Your pizza has " + toppingstext + " on it.  Sounds Delicious!"
+    let toppingstext = toppingtextonly.join(", ");
+    let pizzaoutput;
+    if (toppingstext) {
+    pizzaoutput = "Hello, " + customerName + "! Your pizza has " + toppingstext + " on it. Sounds Delicious!";
+    } else {
+    pizzaoutput = "Hello, " + customerName + "! Your pizza has cheese on it. Sounds Delicious!";
+    }
     document.getElementById("pizzaresult").textContent = pizzaoutput;
     //put in local storage
     let storedtoppings = JSON.stringify(toppings);
@@ -252,7 +258,7 @@ clickanchovies.addEventListener('click', function() {
 
 
 
-hello! its justin
+
 
 
 
